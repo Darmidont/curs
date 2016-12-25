@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComboBoxExtensions.cs" />
     <Compile Include="CompetitionEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +90,12 @@
     <Compile Include="SportsmenEditForm.Designer.cs">
       <DependentUpon>SportsmenEditForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="StatsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatsWindow.Designer.cs">
+      <DependentUpon>StatsWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="TypeOfSportEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +116,12 @@
     </Compile>
     <EmbeddedResource Include="SportsmenEditForm.resx">
       <DependentUpon>SportsmenEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatsWindow.resx">
+      <DependentUpon>StatsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeOfSportEditForm.resx">
+      <DependentUpon>TypeOfSportEditForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DB_Sport_MainDataSet.xsc">
       <DependentUpon>DB_Sport_MainDataSet.xsd</DependentUpon>

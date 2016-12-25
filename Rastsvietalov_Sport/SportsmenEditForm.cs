@@ -16,5 +16,30 @@ namespace Rastsvietalov_Sport
         {
             InitializeComponent();
         }
+
+        private void SportsmenEditForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SportsmenEditFormAcceptButton_Click(object sender, EventArgs e)
+        {
+
+            if(_edit)
+
+
+            else
+            {
+                
+            }
+
+            DialogResult = DialogResult.OK;
+            Close();
+        }
+
+        private void SportsmenEditFormEscapeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

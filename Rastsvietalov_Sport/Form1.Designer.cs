@@ -134,7 +134,7 @@
             // закрытьToolStripMenuItem
             // 
             this.закрытьToolStripMenuItem.Name = "закрытьToolStripMenuItem";
-            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.закрытьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.закрытьToolStripMenuItem.Text = "Закрыть";
             this.закрытьToolStripMenuItem.Click += new System.EventHandler(this.закрытьToolStripMenuItem_Click);
             // 
@@ -145,9 +145,9 @@
             this.StatisticsButton,
             this.ReportButton,
             this.ImportButton});
-            this.toolStrip6.Location = new System.Drawing.Point(89, 0);
+            this.toolStrip6.Location = new System.Drawing.Point(51, 0);
             this.toolStrip6.Name = "toolStrip6";
-            this.toolStrip6.Size = new System.Drawing.Size(266, 25);
+            this.toolStrip6.Size = new System.Drawing.Size(235, 25);
             this.toolStrip6.TabIndex = 2;
             this.toolStrip6.Text = "toolStrip6";
             // 
