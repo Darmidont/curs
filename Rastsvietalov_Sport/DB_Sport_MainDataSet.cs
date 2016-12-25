@@ -2,10 +2,10 @@
 {
 
 
-    partial class DB_Sport_MainDataSet
-    {
-        partial class SportsmensDataTable
-        {
-        }
-    }
+	partial class DB_Sport_MainDataSet
+	{
+		partial class SportsmensDataTable
+		{
+		}
+	}
 }
