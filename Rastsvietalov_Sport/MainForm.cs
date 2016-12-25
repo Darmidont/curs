@@ -21,5 +21,10 @@ namespace Rastsvietalov_Sport
 		{
 
 		}
-	}
+
+        private void закрытьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+    }
 }
