@@ -24,15 +24,6 @@ namespace Rastsvietalov_Sport
 
         private void SportsmenEditFormAcceptButton_Click(object sender, EventArgs e)
         {
-
-            if(_edit)
-
-
-            else
-            {
-                
-            }
-
             DialogResult = DialogResult.OK;
             Close();
         }
