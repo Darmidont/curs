@@ -29,13 +29,13 @@ namespace CourseVasilets
             return Name;
         }
 
-        public static void GetFromDBtoCombo(DB_Sport_MainDataSet.TypesDataTable table, ComboBox owner)
-        {
-            foreach (DB_Sport_MainDataSet.TypesRow typesRow in table)
-            {
-                owner.Items.Add(new TypeComboObject(typesRow.TypeId, typesRow.TName));
-            }
-        }
+        //public static void GetFromDBtoCombo(DB_Sport_MainDataSet.TypesDataTable table, ComboBox owner)
+        //{
+        //    foreach (DB_Sport_MainDataSet.TypesRow typesRow in table)
+        //    {
+        //        owner.Items.Add(new TypeComboObject(typesRow.TypeId, typesRow.TName));
+        //    }
+        //}
     }
 
     class ManufacturerComboObject
@@ -55,15 +55,6 @@ namespace CourseVasilets
         {
             return Name + " | " + Country;
         }
-
-        public static void GetFromDBtoCombo(DB_Sport_MainDataSet.ManufacturersDataTable table, ComboBox owner)
-        {
-            foreach (DB_Sport_MainDataSet.ManufacturersRow manufacturersRow in table)
-            {
-                owner.Items.Add(new ManufacturerComboObject(manufacturersRow.ManufacturerId, manufacturersRow.MfName, manufacturersRow.MfCountry));
-            }
-        }
-
 
     }
 }
